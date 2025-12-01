@@ -2,7 +2,7 @@
 // @name         GitHub 下载加速
 // @namespace    http://tampermonkey.net/
 // @version      4.1
-// @description  检测多个代理节点与原站的延迟，自动使用最快的节点
+// @description  检测多个代理节点与原站的延迟，自动使用最快的节点下载github资源
 // @author       NikoYomi & Gemini
 // @match        https://github.com/*
 // @icon         https://github.githubassets.com/favicons/favicon.svg
@@ -24,6 +24,7 @@
         { name: "GhProxy (Net)",  url: "https://ghproxy.net/" },
         { name: "GH-Proxy",       url: "https://gh-proxy.com/" },
         { name: "Moeyy (日本)",   url: "https://github.moeyy.xyz/" },
+    // 按照格式 { name: "名称",   url: "节点地址" }, 添加你收集或创建的任意加速节点
     ];
 
     const TIMEOUT_MS = 3000;      // 测速超时时间
