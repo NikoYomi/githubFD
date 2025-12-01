@@ -23,7 +23,7 @@
     * [Violentmonkey](https://violentmonkey.top/) (Firefox)
 
 2.  **安装脚本**：
-    点击下方的链接直接安装：
+    下载此脚本并上传Tampermonkey (油猴) 使用：
 
     [**👉 点击安装脚本 (Install Script)**](./githubfd.user.js)
 
