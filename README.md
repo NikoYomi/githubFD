@@ -59,7 +59,7 @@ const PROXY_CONFIG = [
 
 虽然公共节点很方便，但为了获得更稳定、更私密的下载体验，**强烈推荐搭配此项目构建自己的加速节点**：
 
-* **gh-proxy**: [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
+* **hunshcn/gh-proxy**: [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
 
 你可以在 Cloudflare Workers 等平台上免费部署，搭建完成后，只需将你的专属域名按照上面的格式添加到脚本的 `PROXY_CONFIG` 中即可。
 
